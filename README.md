@@ -39,8 +39,4 @@ It helps to understand how different sorting algorithms work by visualizing the 
 ```bash
    git clone https://github.com/your-username/sorting-visualizer.git
 ```
----
-
-## View
-Link : https://viraj-gohil73.github.io/sorting-visualizer
    
