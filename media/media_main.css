@@ -1,0 +1,167 @@
+@media screen and (min-width: 300px) and (max-width:  500px){
+    .title{
+        min-height: 6dvh;
+        height: 6dvh;
+        padding: 0px 10px;
+    }
+    .notify{
+        font-size: 0.8rem;
+    }
+    .title h3{
+        font-size: 20px;
+    }
+    .title .prof p{
+        font-size: 14px;
+    }
+    .title .prof img{
+        width: 28px;
+    }
+    .title .prof .logout{
+        width: 24px;
+        margin-left: 8px;
+    }
+    .menu
+    {
+        width: 100vw;
+        min-height: 265px;
+        height: 42dvh;
+    }
+    .menu .control{
+        flex-direction: column;
+        width: 100%;
+        height: 40vh;
+    }
+    .menu .control select{
+        margin: 8px 0px;
+        padding: 2px 30px;
+        font-size: 14px;
+    }
+    .menu .control .range{
+        width: 100%;
+        margin-bottom: 6px;
+    }
+    .menu .control .range .size,
+    .menu .control .range .speed{
+        padding: 4px 8px;
+    }
+    .menu .control .range .size h4,
+    .menu .control .range .speed h4{
+        width: 118px;
+    }
+    .menu .control .btn1,
+    .menu .control .btn2{
+        width: 92%;
+        flex-direction: row;
+    }
+    .menu .control .btn1 input{
+        width: 140px;
+        height: 35px;
+        padding: 4px;
+        font-size: 13px;
+        border: 2px solid #fff; 
+    }
+    .menu .control .btn2 input{
+        width: 140px;
+        height: 35px;
+        padding: 4px;
+        font-size: 13px;
+        border: 2px solid #fff;
+        margin-bottom: 10px;
+    }
+    .menu .control .btn2 input:hover,
+    .menu .control .btn1 input:hover{
+        border: 2px solid #fff;
+    }
+    .bars{
+        height: 52dvh;
+    }
+    .bars .notify{
+        display: block;
+    }
+    .bars .bars-box{
+        width: 92%;
+        height: 80%;
+        padding: 4px;
+    }
+    .bars .bars-box .bar{
+        position: static;
+        height: auto;
+    }
+    .toast{
+        height: 38px;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width:  600px){
+    .title{
+        min-height: 6dvh;
+        height: 6dvh;
+        padding: 0px 10px;
+    }
+    .title h3{
+        font-size: 20px;
+    }
+    .title .prof p{
+        font-size: 14px;
+    }
+    .bars .notify{
+        display: block;
+    }
+    .title .prof img{
+        width: 28px;
+    }
+    .title .prof .logout{
+        width: 24px;
+        margin-left: 8px;
+    }.menu .control{
+        flex-direction: column;
+        width: 100%;
+        height: 40vh;
+    }
+    .menu .control .btn1,
+    .menu .control .btn2{
+        width: 92%;
+        flex-direction: row;
+    }
+    .menu
+    {
+        width: 100vw;
+        min-height: 260px;
+        height: 42dvh;
+    }  
+}
+@media screen and (min-width: 600px) and (max-width:  950px){
+    .title{
+        min-height: 6dvh;
+        height: 6dvh;
+        padding: 0px 10px;
+    }
+    .title h3{
+        font-size: 20px;
+    }
+    .title .prof p{
+        font-size: 14px;
+    }
+    .title .prof img{
+        width: 28px;
+    }
+    .title .prof .logout{
+        width: 24px;
+        margin-left: 8px;
+    }.menu .control{
+        flex-direction: column;
+        width: 100%;
+        height: 35vh;
+    }
+    .menu .control .btn1,
+    .menu .control .btn2{
+        width: 92%;
+        flex-direction: row;
+    }
+    .menu
+    {
+        width: 100vw;
+        min-height: 270px;
+        height: 42dvh;
+    }  
+}

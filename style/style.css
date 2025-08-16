@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    padding: 0px 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #dde8f0;
+    transition: 0.1s all ease-in-out;
+}
+.title h3{
+    color: #000;
+    font-size: 26px;
+    letter-spacing: 0.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    user-select: none;
+}
+.title .prof {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title .prof p{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.title .prof img{
+    width: 32px;
+    height: auto;
+    user-select: none;
+    -webkit-user-drag: none;
+} 
+.title .prof .logout{
+    width: 26px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.menu{
+    width: 100dvw;
+    height: 26vh;
+    background-color:#004581;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.1s all ease-in-out;
+}
+.menu .control{
+    width: auto;
+    height: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu .control .select{
+    margin-right:16px;
+}
+.menu .control select{
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    padding: 6px 32px;
+    border-radius: 4px;
+    outline: none;
+    border: 3px solid #fff;
+    transition: 0.3s all linear;
+}
+.menu .control select option{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu .control .range{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+.menu .control .range .size,
+.menu .control .range .speed{
+    display: flex;
+    background-color: #fff;
+    padding: 6px 14px;
+    margin:4px 14px;  
+    border-radius: 6px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.menu .control .range .size input,
+.menu .control .range .speed input{
+    width: 250px;
+    height: 25px;
+    outline: none;
+}
+.menu .control .range .size input::-webkit-scrollbar-track-piece{
+    background-color: #004581;
+}
+.menu .control .range .size input::-webkit-slider-thumb{
+    cursor: pointer;
+}
+.menu .control .range .size h4
+{
+    width: 105px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.menu .control .range .speed{
+    display: flex;
+    margin-top: 10px;
+}
+.menu .control .range .speed h4{
+    width: 100px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.menu .control .btn1,
+.menu .control .btn2,
+.menu .control .feed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu .control .btn1 input,
+.menu .control .feed input{
+    width: 140px;
+    height: 35px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin: 6px 8px;
+    outline: none;
+    background-color: #fff;
+    border: 3px solid #fff;
+    border-radius: 4px; 
+    cursor: pointer;
+    transition: 0.3s all linear;
+}
+.menu .control .btn2 input{
+    width: 140px;
+    height: 35px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin: 6px 8px;
+    outline: none;
+    background-color: #fff;
+    border: 3px solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s all linear;
+}
+.menu .control .btn2 input:hover,
+.menu .control .btn1 input:hover,
+.menu .control .feed input:hover{
+    font-size: 13.5px;
+}
+.bars{
+    width: 100vw;
+    height: 100%;
+    min-height: 200px;
+    background-color: #dde8f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.1s all ease-in-out;
+}
+.bars .bars-box{
+    width: 95%;
+    height: 94%;
+    padding: 6px;
+    border: 3px solid #004581;
+    background-color: #eee;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    overflow: hidden;
+}
+.bars .bars-box .bar{
+    position: relative;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    background-color: #004581;
+    margin: 0px 2px;
+}
+.bars .notify{
+    margin-bottom: 6px;
+    display: none;
+}
+.toast{
+    position: absolute;
+    align-self: center;
+    width: auto;
+    height: 40px;
+    top: -50px;
+    padding: 8px 50px;
+    margin: 6px 0px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #018abd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    border: 2px solid #004581;
+    box-shadow: 0 0 20px rgba(39, 143, 228, 0.3);
+    display: flex;
+    align-items: center; 
+    border-radius: 4px;
+    animation: movedown 2s linear;
+    z-index: 9;
+}
+@keyframes movedown {
+    11%,50%{
+        top: 30px;
+    }
+    80%,100%{
+        top:-50px;
+    }
+}

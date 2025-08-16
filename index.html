@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="media/media_main.css">
+    <link rel="icon" type="image/png" href="img/fav_sort.png">
+</head>
+<body onload="gen_ele(10)">
+    <div class="title">
+        <h3>Sorting Visualizer</h3>
+        
+    </div>
+    <div class="menu" >
+        <div class="control">
+            <div class="select">
+                <select name="" id="algo_select" title="Select Algorithm">
+                    <option value="">Select Algorithm</option>
+                    <option value="bubble" >Bubble Sort</option>
+                    <option value="merge" >Merge Sort</option>
+                    <option value="selection" >Selection Sort</option>
+                    <option value="quick" >Quick Sort</option>
+                    <option value="insertion" >Insertion Sort</option>
+                </select>
+            </div>
+
+            <div class="range">
+                <div class="size" title="Data Size">
+                    <h4>Data Size : <span id="size">10</span></h4>
+                    <input type="range" min="10" max="100" value="10" id="data_size">
+                </div>
+                <div class="speed" title="Speed">
+                    <h4>Speed : <span id="speed">1x</span></h4>
+                    <input type="range" min="1" max="8" value="1" id="data_speed" value="2">
+                </div>
+            </div>
+
+            <div class="btn1">
+                <input type="button" value="Generate Elements" id="btn_gen">
+                <input type="button" value="Sorting Now" id="btn_sort"/>  
+            </div>
+
+            <div class="btn2">
+                <input type="button" value="Reset" id="btn_reset"> 
+                <input type="button" value="Stop" id="btn_stop" disabled/>
+            </div>
+        </div>
+       
+    </div>
+     <!-- <div class="creation">Created  By <span class="credit"></span>Viraj Gohil</div> -->
+    
+    <div class="bars">
+        <h5 class="notify">* Sizes over 50 may not Display on Mobile Screen</h5>
+
+        <div class="bars-box" id="bars-box"></div>
+        
+    </div>
+
+</body>
+<script src="js/main.js"></script>
+<script src="js/bubble.js"></script>
+<script src="js/selection.js"></script>
+<script src="js/insertion.js"></script>
+<script src="js/quick.js"></script>
+<script src="js/merge.js"></script>
+</html>
