@@ -22,8 +22,9 @@ It helps to understand how different sorting algorithms work by visualizing the 
 
 ---
 
-## 🖼️ Demo Preview
-(Add a screenshot or GIF here after hosting, e.g. using GitHub Pages or Netlify)
+## 🖼️ Project Preview
+![](img/sorting_demo_img.png)
+
 
 ---
 
